@@ -23,4 +23,4 @@ function tabuada (numero) {
     console.log(`${numero * 10}`)
 }
 
-tabuada(3)
+tabuada(4)
