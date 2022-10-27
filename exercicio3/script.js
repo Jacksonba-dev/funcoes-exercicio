@@ -2,26 +2,22 @@
 
 
 function fSoma (a , b) {   
-    let a =Number(prompt("Insira valor a ser somado")) 
-    let b =Number(prompt("Insira o outro valor"))
- 
     let somaNumeros = a + b
     console.log("A soma é:")
     console.log(somaNumeros)   
 }
 
+let a =Number(prompt("Valor a ser somado, subtraído, multiplicado e dividido")) 
+let b =Number(prompt("Insira o outro valor"))
 //
 
   
 
-function fSubtracao (a , b) { 
-    let a =Number(prompt("Insira valor a ser subtraído")) 
-    let b =Number(prompt("Insira o outro valor"))  
+function fSubtracao (a , b) {  
     let subNumeros = a - b
     console.log("A subtração é:")
     console.log(subNumeros)
-}
-
+} 
 
 
 //
@@ -29,8 +25,6 @@ function fSubtracao (a , b) {
 
         
 function fMultiplicacao (a , b) {
-    let a =Number(prompt("Insira valor a ser multiplicado")) 
-    let b =Number(prompt("Insira o outro valor"))
     let multNumeros = b * a
     console.log("A multiplicação é:")
     console.log(multNumeros)
@@ -42,13 +36,11 @@ function fMultiplicacao (a , b) {
 
 
 function fDivisao (a , b) {
-    let a =Number(prompt("Insira valor a ser dividido")) 
-    let b =Number(prompt("Insira o outro valor"))
-    let multNumeros = b / a
+    let divNumeros = b / a
     console.log("A divisão é:")
     console.log(divNumeros)
-
 }
+
 
 //
 
@@ -56,3 +48,6 @@ fSoma(a,b)
 fSubtracao(a,b) 
 fMultiplicacao(a,b)
 fDivisao(a,b)
+
+//
+

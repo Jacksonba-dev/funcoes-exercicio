@@ -42,3 +42,4 @@ function descontoSalario (a) {
 }
 
 descontoSalario(1212)
+
